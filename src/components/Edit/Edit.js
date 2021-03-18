@@ -58,8 +58,9 @@ const Edit = () => {
                     </div>
                     <div className="buttons">
                         <button onClick={Submit}>Create</button>
-                        <button>Cancel</button>
+                        <button>Cancel</button> 
                     </div>
+                    <div></div>
                     
                 </form>
             </div>
