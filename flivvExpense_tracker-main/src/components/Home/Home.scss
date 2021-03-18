@@ -1,0 +1,46 @@
+.Home-container{
+    position: relative;
+    padding: 10px 20px;
+    height: auto;
+    width: 100vw;
+    
+    .upper-container{
+        position: relative;
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        .search-container{
+            position: relative;
+            width: 70%;
+            padding: 20px;
+            .search-input{
+                padding: 10px;
+                width: 85%;
+                border-radius: 20px;
+                outline: none;
+                
+            }
+            .search-button{
+                margin: 10px;
+                font-size: 18px;
+                background: none;
+                padding:5px;
+                border-radius: 50px;
+
+            }
+        }
+    }
+    .total-container{
+        display: flex;
+        font-size: 20px;
+        width: 30%;
+        align-items: center;
+        .total{
+            margin: 5px;
+            
+        }
+        .threshold{
+            margin: 5px;
+        }
+    }
+}
